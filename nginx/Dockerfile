@@ -1,5 +1,5 @@
 # Base on offical NGINX Alpine image
-FROM nginx:alpine
+FROM vixlet/nginx:alpine
 
 # Remove any existing config files
 RUN rm /etc/nginx/conf.d/*
